@@ -1,0 +1,63 @@
+우분투
+
+Directory=폴더(파일)
+-System Directory : 기본 시스템에서 사용되는 파일 (권한필요)
+
+-권한 -root(Super User,SU) : 최고권한 
+        -user권한 : 자신이 소유,생산한 파일에 대한 권한
+
+cd=change directory 변경
+
+mkdir=directory 만들기
+
+cat "파일명"=터미널에서 파일보기
+
+sudo apt-get= sudo(관리자권한)으로 소프트웨어 실행,설치,업데이트,삭제하는 데 사용
+
+sudo apt-get upgrade= 설치된 패키지를 업그레이드
+
+sudo apt-get install gcc= gcc(리눅스 컴파일러)를 설치
+
+gcc "파일명" -> ls -> 파일 앞 녹색으로 a.out(명령어)표기됨 =실행파일이라는 표시
+
+dir -al해서 보면 속성 카테고리에 rwxrwxr같은 문자들이 표기됨 read와 write excution을 의미
+
+rwx/rwx/r-x  -> 775권한 마지막 단위 하나가 비어있음   777이 최고권한
+
+오너&root/Group/geust   => 
+a.out = 실행파일을 표기  a.out앞에 ./를 붙이면 current directory에 있는 곳에서 a.out을 찾으라는 명령
+
+. = current directory 현재 내가 있는 곳
+
+..= parent directory 상위 디렉토리
+s
+$=불러오기 / PATH=경로(환경변수)
+경로에 현재디렉토리추가 = export PATH=$PATH:.
+
+rm a.out = 실행파일삭제
+
+gcc -o a "파일명" -> 복원
+
+cd .. = 상위폴더로 나가기
+
+파일이름변경 -> mv "현재파일명" "바꿀파일명"
+
+>>>>>>>>>>>>>>Github설정 
+sudo 를 이용해서 git 설치
+
+git clone "내 GIT 레퍼지스토리 주소" Work (파일명)
+->user name
+->git홈페이지 토큰 생성 후 토큰 복사 붙여넣기
+
+cd Work -> add git * -> add commit -m linux
+-----------------------------------------------------------------
+리눅스 ssh = 원격피씨에서 터미널화면으로만 하기
+cp --help
+cp *.*=전부 복사
+cd work1 ->  ls -al  -> 
+
+
+putty
+vmware ip주소 입력 후 이름생성하 세이브
+
+sudo apt-get install openssh-server
