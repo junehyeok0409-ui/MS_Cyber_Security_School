@@ -61,3 +61,9 @@ putty
 vmware ip주소 입력 후 이름생성하 세이브
 
 sudo apt-get install openssh-server
+
+
+시행가능한 파일로 변환을 못했음
+
+chmod 명령어
+
