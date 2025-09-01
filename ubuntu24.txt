@@ -1,5 +1,5 @@
 우분투
-
+dfafaf
 Directory=폴더(파일)
 -System Directory : 기본 시스템에서 사용되는 파일 (권한필요)
 
